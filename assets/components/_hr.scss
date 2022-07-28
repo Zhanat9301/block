@@ -8,11 +8,60 @@
         height: 100px;
         border-radius: 100%;
     }
-    &__info{ 
+    &__info{
         
-        @include flex();
+        @include flex-center();
     }
     &__top{
-        @include flex();
+        @include flex-center();
     }
+    &__compony-name{
+
+        font-weight: 400;
+        font-size: 12px;
+        color: #699B9A;
+    }
+        
+
+    
+    &__actual{
+        font-weight: 400;
+        font-size: 12px;
+        color: #FFFFFF;
+        padding: 5px 10px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
+        background: #323232;
+        border-radius: 25px;
+    }
+    &__title{
+    
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 26px;
+
+        color: #182120;
+
+    }
+    &__condition {
+
+        font-weight: 400;
+        font-size: 12px;
+        color: #B6B6B6;
+    }
+    &__tag{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 21px;
+        font-weight: 400;
+        font-size: 12px;
+        
+        color: #699999;
+        background: #C4C4C4;
+        border-radius: 5px;
+    }
+
+
 }
