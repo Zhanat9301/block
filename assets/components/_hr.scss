@@ -1,0 +1,18 @@
+.hr{
+    &__item{
+        display: flex;
+    }
+    &__avatar{
+        background: #000;
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+    }
+    &__info{ 
+        
+        @include flex();
+    }
+    &__top{
+        @include flex();
+    }
+}
